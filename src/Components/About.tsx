@@ -2,7 +2,7 @@ import './About.module.css';
 
 function About() {
   return (
-    <section className="container">
+    <section id="about" className="container">
     </section>
   );
 }
