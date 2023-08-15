@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+
+.headshot {
+  border: 2px solid green;
+  border-radius: 50%;
+  height: 240px;
+}

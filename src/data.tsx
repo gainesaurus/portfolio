@@ -41,6 +41,7 @@ export const skills = [
   "CSS",
   "Javascript",
   "Typescript",
+  "WCAG",
   "React", 
   "Next.js",
   "Material UI",
@@ -56,5 +57,9 @@ export const skills = [
   "PostgresQL",
   "Postman",
   "Figma",
-  "UIzard"
+  "UIzard",
+  "Asana",
+  "Jira",
+  "Slack",
+  "Discord"
 ]

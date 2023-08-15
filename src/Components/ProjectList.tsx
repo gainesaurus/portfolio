@@ -1,9 +1,9 @@
-import './ProjectList.module.css';
+// import './ProjectList.module.css';
 
 function ProjectList() {
   return (
     <section id="projects" className="container">
-      
+
     </section>
   );
 }
