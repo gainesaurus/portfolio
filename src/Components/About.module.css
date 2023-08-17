@@ -1,9 +1,21 @@
 .container {
   display: flex;
+  width: 90%;
+  color: white;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .headshot {
   border: 2px solid var(--baseLtBlue);
-  border-radius: 50%;
+  border-radius: 30%;
   height: 240px;
+}
+
+.description {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  margin-right: 3rem;
 }

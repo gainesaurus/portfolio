@@ -1,8 +1,11 @@
-// import './Navbar.module.css';
+import styles from './Navbar.module.css';
 
 function Navbar() {
   return (
-    <section className="container">
+    <section className={styles.container}>
+      <p className={styles.links}>gainesaur.io</p>
+      <p className={styles.links}>past work</p>
+      <p className={styles.links}>skills</p>
     </section>
   );
 }
