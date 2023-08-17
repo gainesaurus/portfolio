@@ -1,8 +1,9 @@
-// import './Contact.module.css';
+import styles from './Contact.module.css';
 
 function Contact() {
   return (
-    <section className="container">
+    <section className={styles.container}>
+      <h2 className={styles.heading}>Contact:</h2>
     </section>
   );
 }

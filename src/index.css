@@ -1,9 +1,9 @@
 :root {
-  --basePink: #fdc5f5;
-  --baseLilac: #f7aef8;
-  --basePurple: #b388eb;
-  --baseBlue: #8093f1;
-  --baseLtBlue: #72ddf7;
+  --nav: #fdc5f5;
+  --projects: #f7aef8;
+  --skills: #b388eb;
+  --contact: #8093f1;
+  --about: #72ddf7;
 }
 
 body {
@@ -14,12 +14,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-section {
-  width: calc(100%-4rem);
-  padding: 2rem 2rem 4rem 2rem;
-  margin-bottom: 4rem;
 }
 
 code {

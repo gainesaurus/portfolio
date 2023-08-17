@@ -1,8 +1,9 @@
 .container {
   display: flex;
   justify-content: center;
-  border-top: 1px solid var(--baseLilac);
-  border-bottom: 3px double var(--baseLilac);
+  border-top: 1px solid var(--projects);
+  border-bottom: 3px double var(--projects);
+  box-shadow: 0 1px 4px var(--projects);
 }
 
 .heading {

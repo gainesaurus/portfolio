@@ -1,8 +1,9 @@
-// import './SkillsList.module.css';
+import styles from './SkillsList.module.css';
 
 function SkillsList() {
   return (
-    <section className="container">
+    <section className={styles.container}>
+      <h2 className={styles.heading}>Skills &amp; Technologies:</h2>
     </section>
   );
 }

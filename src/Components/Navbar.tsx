@@ -6,6 +6,7 @@ function Navbar() {
       <p className={styles.links}>gainesaur.io</p>
       <p className={styles.links}>past work</p>
       <p className={styles.links}>skills</p>
+      <p className={styles.links}>contact</p>
     </section>
   );
 }

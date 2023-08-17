@@ -1,16 +1,18 @@
 .container {
   display: flex;
   color: white;
-  border-bottom: 3px double var(--baseLtBlue);
+  border-bottom: 3px double var(--about);
+  box-shadow: 0 1px 4px var(--about);
   align-items: center;
   justify-content: space-around;
   margin-top: 2rem;
 }
 
 .headshot {
-  border: 2px solid var(--baseLtBlue);
+  border: 2px solid var(--about);
+  box-shadow: 2px 2px 4px var(--about);
   border-radius: 30%;
-  height: 240px;
+  height: 300px;
 }
 
 .description {
