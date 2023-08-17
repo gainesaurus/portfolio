@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--baseLilac);
+  border-bottom: 3px double var(--baseLilac);
+}
+
+.heading {
+  display: flex;
+  color: white;
+}

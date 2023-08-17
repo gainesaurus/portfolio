@@ -2,9 +2,15 @@
   display: flex;
   flex-direction: row;
   height: 70px;
+  width: 100%;
   align-items: center;
   border-bottom: 1px solid var(--basePink);
+  background-color: #020214;
   color: white;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
 }
 
 .links {

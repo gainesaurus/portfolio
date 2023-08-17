@@ -1,10 +1,10 @@
 .container {
   display: flex;
-  width: 90%;
   color: white;
-  margin: 20px;
+  border-bottom: 3px double var(--baseLtBlue);
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 2rem;
 }
 
 .headshot {
@@ -15,7 +15,7 @@
 
 .description {
   display: flex;
+  flex-direction: column;
   width: 50%;
   text-align: center;
-  margin-right: 3rem;
 }

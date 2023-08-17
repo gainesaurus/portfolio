@@ -16,6 +16,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  width: calc(100%-4rem);
+  padding: 2rem 2rem 4rem 2rem;
+  margin-bottom: 4rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
