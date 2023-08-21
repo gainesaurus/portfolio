@@ -21,3 +21,26 @@
   width: 50%;
   text-align: center;
 }
+
+.linkList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  margin: 10px;
+}
+
+a:link, a:visited {
+  color: var(--about);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
