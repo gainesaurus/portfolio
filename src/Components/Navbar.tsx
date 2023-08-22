@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css';
 
-function Navbar() {
+const Navbar = () => {
   return (
     <section className={styles.container}>
       <p className={styles.links}>gainesaur.io</p>
