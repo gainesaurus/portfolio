@@ -2,12 +2,12 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <section className={styles.container}>
+    <header className={styles.container}>
       <p className={styles.links}>gainesaur.io</p>
-      <p className={styles.links}>past work</p>
-      <p className={styles.links}>skills</p>
-      <p className={styles.links}>contact</p>
-    </section>
+      <a href="#projects" className={styles.links}>past work</a>
+      <a href="#skills" className={styles.links}>skills</a>
+      <a href="#contact" className={styles.links}>contact</a>
+    </header>
   );
 }
 

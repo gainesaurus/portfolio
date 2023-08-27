@@ -6,6 +6,10 @@
   --about: #72ddf7;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: #020214;
