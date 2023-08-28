@@ -7,3 +7,15 @@ section {
   padding: 2rem 2rem 4rem 2rem;
   margin-bottom: 4rem;
 }
+
+a:link, a:visited {
+  color: var(--about);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}

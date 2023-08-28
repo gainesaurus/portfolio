@@ -1,6 +1,8 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border-top: 1px solid var(--contact);
   border-bottom: 3px double var(--contact);
   box-shadow: 0 1px 4px var(--contact);

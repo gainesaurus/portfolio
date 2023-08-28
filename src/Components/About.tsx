@@ -18,7 +18,7 @@ const About = () => {
             className={styles.icon}>
             <LinkedInIcon  />
           </a>
-          <a href='a'
+          <a href='#contact'
             className={styles.icon}>
             <EmailIcon className={styles.icon} />
           </a>
