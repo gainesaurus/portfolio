@@ -1,6 +1,8 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border-top: 1px solid var(--projects);
   border-bottom: 3px double var(--projects);
   box-shadow: 0 1px 4px var(--projects);
@@ -9,4 +11,34 @@
 .heading {
   display: flex;
   color: white;
+  margin: 50px 0 40px 0;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border: 2px solid var(--projects);
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px var(--about);
+  margin: 0 10px 20px 10px;
+  width: 45%;
+  padding: 0 0 10px 0;
+}
+
+.uiImage {
+  display: flex;
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 20px 20px 0 0;
 }

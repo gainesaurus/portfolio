@@ -1,36 +1,56 @@
 // PROJECTS
 export const projects = [
   {
-    title: "Vakay",
+    title: "Vakay!",
     subtitle: "Next.js, Firebase, Auth0",
-    description: "",
-    image: "../../public/images/VakayUI.png",
+    description: "Vakay! is the app in which users plan trips with many contributors like reunions or trips abroad with timelines, shared locations, photos, etc.",
+    image: "./images/VakayUI.png",
     link: "",
     gitLink: "https://github.com/gainesaurus/Vakay",
   },
   {
     title: "ifGift",
     subtitle: "React, Koa, MongoDB",
-    description: "",
-    image: "../../public/images/ifGiftUI.png",
+    description: "ifGift is the app to aid in the anxious act of gift-giving. Users create profiles with their gift preferences (Wants, Avoids, Registries, or Charities) which other users can see to make more informed gift-giving choices. Users can also create gift-lists for their friends and family to compare with that person's posted Want Lists.",
+    image: "./images/ifGiftUI.png",
     link: "",
     gitLink: "https://github.com/gainesaurus/ifGift",
   },
   {
     title: "Subscriber",
     subtitle: "React, Typescript",
-    description: "",
-    image: "../../public/images/SubscriberUI.png",
+    description: "Subscriber is an app for tracking personal subscriptions and setting reminders for payment renewals or cancellations.",
+    image: "./images/SubscriberUI.png",
     link: "",
     gitLink: "https://github.com/gainesaurus/subscriber",
   },
+  // {
+  //   title: "Doctor Banjo",
+  //   subtitle: "React, Netlify",
+  //   description: "The homepage of Western Australia's Greatest Banjo Player",
+  //   image: "",
+  //   link: "",
+  //   gitLink: "",
+  // }
+];
+
+export const sideProjects = 
+[
   {
-    title: "Doctor Banjo",
-    subtitle: "React, Netlify",
-    description: "The homepage of Western Australia's Greatest Banjo Player",
-    image: "",
+    title: "DMbattlr",
+    subtitle: "React, Typescript, MaterialUI",
+    description: "The upcoming app to help DMs track combat in the popular role-playing game, Dungeons & Dragons!",
+    image: "./images/DMbattlr-UI.png",
     link: "",
-    gitLink: "",
+    gitLink: "https://github.com/gainesaurus/dmbattlr",
+  },
+  {
+    title: "DMbattlr",
+    subtitle: "React, Typescript, MaterialUI",
+    description: "The upcoming app to help DMs track combat in the popular role-playing game, Dungeons & Dragons!",
+    image: "./images/DMbattlr-UI.png",
+    link: "",
+    gitLink: "https://github.com/gainesaurus/dmbattlr",
   }
 ];
 
