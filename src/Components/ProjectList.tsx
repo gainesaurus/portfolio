@@ -15,7 +15,10 @@ const ProjectList = () => {
           />
           <h4>{project.title}</h4>
           <p>{project.description}</p>
-          <button>
+          <button 
+            className={styles.gitButton}
+            title={project.gitLink}
+          >
             <GitHubIcon className={styles.icon} />
           </button>
         </li>)}

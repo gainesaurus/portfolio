@@ -7,7 +7,9 @@ const About = () => {
   return (
     <section id="about" className={styles.container}>
       <div className={styles.description}>
-        <h2>Hi, I'm Mike Gainey</h2>
+        <p>Hi folks, my name is</p>
+        <h2 className={styles.name}> Mike Gainey.</h2>
+        <h3 className={styles.bio}>I build web stuff.</h3>
         <p>I am a front-end developer with fullstack experience and a background in teaching and creative design.</p>
         <div className={styles.linkList}>
           <a href='https://github.com/gainesaurus'

@@ -19,7 +19,23 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  text-align: center;
+  text-align: start;
+}
+
+.name {
+  display: flex;
+  font-size: 3.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--about);
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.bio {
+  display: flex;
+  font-size: 3rem;
+  color: var(--projects);
+  margin: 0 0 1rem 1rem;
 }
 
 .linkList {

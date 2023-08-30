@@ -90,13 +90,13 @@ export const testimonials = [
     name: "Danielle Stroscher",
     title: "Software Developer",
     company: "Subscriber",
-    quote: "\"Mike is a great developer and it has been such a pleasure to work alongside him! He is an excellent communicator and his easygoing yet hardworking, can-do attitude made me so grateful to be on the same team. I was always very impressed by his attention to detail and eye for front-end design. He has the ability to learn and implement anything handed to him and execute it very well. I hope to get the opportunity to work with him again!\"",
+    quote: "\"Mike is a great developer! His easygoing yet hardworking, can-do attitude made me so grateful to be on the same team. I was always very impressed by his attention to detail and eye for front-end design. He has the ability to learn and implement anything handed to him and execute it very well. I hope to get the opportunity to work with him again!\"",
   },
   {
     name: "Gustavo Silva Navarro",
     title: "Software Engineer",
     company: "ifGift",
-    quote: "\"Mike is an amazing Developer, I have had the pleasure to work with him in different projects. He is particularly very good at navigate new documentation and open source resources when he tries to learn new tecnologies to create high quality websites. Mike is a team player who is always willing to help out, open to new ideas and approaches, and his positive attitude and willingness to pitch in make him a pleasure to work with. I have no doubt his skills would benefit any company!\"",
+    quote: "\"I have had the pleasure to work with Mike in different projects. He is a team player who is always willing to help out, open to new ideas and approaches, and his positive attitude and willingness to pitch in make him a pleasure to work with. I have no doubt his skills would benefit any company!\"",
   },
   {
     name: "Anonymous",
