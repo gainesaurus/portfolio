@@ -14,7 +14,7 @@ const ProjectList = () => {
             className={styles.uiImage}
           />
           <div className={styles.projectDetails}>
-            <h4>{project.title}</h4>
+            <h3>{project.title}</h3>
             <p>{project.description}</p>
             <button 
               className={styles.gitButton}
@@ -34,7 +34,7 @@ const ProjectList = () => {
             className={styles.uiImage}
           />
               <div className={styles.projectDetails}>
-            <h4>{project.title}</h4>
+            <h3>{project.title}</h3>
             <p>{project.description}</p>
             <button 
               className={styles.gitButton}
