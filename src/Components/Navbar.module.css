@@ -14,7 +14,13 @@
   top: 0;
 }
 
-.links {
+.links, .navTitle {
   display: flex;
   margin: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .links {
+    visibility: hidden;
+  }
 }

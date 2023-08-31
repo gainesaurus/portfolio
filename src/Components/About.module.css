@@ -6,19 +6,22 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .headshot {
+  display: flex;
   border: 2px solid var(--about);
   box-shadow: 2px 2px 4px var(--about);
   border-radius: 30% 20%;
-  height: 300px;
+  width: 40% auto;
+  max-height: 500px;
 }
 
 .description {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   text-align: start;
 }
 
@@ -49,5 +52,4 @@
 .icon {
   display: flex;
   margin: 10px;
-  
 }

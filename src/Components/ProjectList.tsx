@@ -13,14 +13,16 @@ const ProjectList = () => {
             src={project.image}
             className={styles.uiImage}
           />
-          <h4>{project.title}</h4>
-          <p>{project.description}</p>
-          <button 
-            className={styles.gitButton}
-            title={project.gitLink}
-          >
-            <GitHubIcon className={styles.icon} />
-          </button>
+          <div className={styles.projectDetails}>
+            <h4>{project.title}</h4>
+            <p>{project.description}</p>
+            <button 
+              className={styles.gitButton}
+              title={project.gitLink}
+            >
+              <GitHubIcon className={styles.icon} /><p>Github</p>
+            </button>
+          </div>
         </li>)}
       </ul>
       <h2 className={styles.heading}>Side Projects &amp; Assessments:</h2>
@@ -31,8 +33,16 @@ const ProjectList = () => {
             src={project.image}
             className={styles.uiImage}
           />
-          <h4>{project.title}</h4>
-          <p>{project.description}</p>
+              <div className={styles.projectDetails}>
+            <h4>{project.title}</h4>
+            <p>{project.description}</p>
+            <button 
+              className={styles.gitButton}
+              title={project.gitLink}
+            >
+              <GitHubIcon className={styles.icon} /><p>Github</p>
+            </button>
+          </div>
         </li>)}
       </ul>
     </section>

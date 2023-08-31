@@ -6,6 +6,7 @@
   border-top: 1px solid var(--projects);
   border-bottom: 3px double var(--projects);
   box-shadow: 0 1px 4px var(--projects);
+  width: 100%;
 }
 
 .heading {
@@ -24,7 +25,7 @@
 .projectCard {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: white;
   color: black;
@@ -43,10 +44,25 @@
   border-radius: 20px 20px 0 0;
 }
 
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .gitButton {
   display: flex;
   background-color: var(--projects);
-  border-radius: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
   margin: 10px;
-  padding: 6px 20px;
+  padding: 6px 16px;
+  box-shadow: 1px 1px 4px var(--about);
+}
+
+.icon {
+  margin: 0 10px;
 }
