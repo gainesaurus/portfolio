@@ -45,12 +45,12 @@ export const sideProjects =
     gitLink: "https://github.com/gainesaurus/dmbattlr",
   },
   {
-    title: "DMbattlr",
-    subtitle: "React, Typescript, MaterialUI",
-    description: "The upcoming app to help DMs track combat in the popular role-playing game, Dungeons & Dragons!",
-    image: "./images/DMbattlr-UI.png",
+    title: "SW-Samesies",
+    subtitle: "React, CSS, React Hooks",
+    description: "A job interview assessment had me build a quick app using the Star Wars API (swapi) to compare two characters. Built in a few hours.",
+    image: "./images/SWmates-UI.png",
     link: "",
-    gitLink: "https://github.com/gainesaurus/dmbattlr",
+    gitLink: "https://github.com/gainesaurus/sw-mates",
   }
 ];
 
