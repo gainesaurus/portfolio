@@ -4,9 +4,9 @@
 
 section {
   width: 100%;
-  min-width: 320px;
   padding: 10px 0 10px 0;
   margin-bottom: 4rem;
+  box-sizing: border-box;
 }
 
 a:link, a:visited {
