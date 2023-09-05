@@ -25,6 +25,7 @@
   flex-direction: column;
   width: 40%;
   text-align: start;
+  margin: 20px 0 0 0;
 }
 
 .name {

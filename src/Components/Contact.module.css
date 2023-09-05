@@ -7,9 +7,48 @@
   border-bottom: 3px double var(--contact);
   box-shadow: 0 1px 4px var(--contact);
   width: 100%;
+  color: white;
 }
 
 .heading {
   display: flex;
   color: white;
+}
+
+.label {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0 0 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 600px;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.nameInput:focus, .emailInput:focus, .msgInput:focus {
+  outline-color: var(--skills);
+}
+
+.msgInput {
+  height: 8rem;
+}
+
+.button {
+  background-color: var(--projects);
+  margin: 10px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px var(--about);
 }

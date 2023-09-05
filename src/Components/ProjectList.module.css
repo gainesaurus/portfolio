@@ -25,7 +25,7 @@
 .projectCard {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: white;
   color: black;
@@ -33,6 +33,7 @@
   border-radius: 20px;
   box-shadow: 4px 4px 6px var(--about);
   width: 45%;
+  height: fit-content;
   margin: 0 10px 20px 10px;
   padding: 0 0 10px 0;
 }
