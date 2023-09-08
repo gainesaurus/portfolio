@@ -20,6 +20,7 @@
   display: flex;
   justify-content: flex-start;
   margin: 10px 0 0 0;
+  font-size: 1.1rem;
 }
 
 .form {
@@ -34,8 +35,13 @@
   flex-direction: column;
   width: 80%;
   max-width: 600px;
-  font-size: 1.1rem;
   padding: 0.5rem;
+}
+
+.nameInput, .emailInput {
+  height: 2rem;
+  font-family: "News Cycle", sans-serif;
+  font-size: 1.1rem;
 }
 
 .nameInput:focus, .emailInput:focus, .msgInput:focus {
@@ -44,12 +50,15 @@
 
 .msgInput {
   height: 8rem;
+  font-family: "News Cycle", sans-serif;
+  font-size: 1.1rem;
 }
 
 .button {
   background-color: var(--projects);
   margin: 10px;
   padding: 6px 16px;
+  border: 2px solid var(--contact);
   border-radius: 20px;
-  box-shadow: 1px 1px 4px var(--about);
+  box-shadow: 1px 1px 4px var(--contact);
 }
