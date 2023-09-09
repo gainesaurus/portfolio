@@ -109,6 +109,6 @@ export const testimonials = [
     name: "Anonymous",
     title: "Undergraduate Student",
     company: "UCSD",
-    quote: "\"AMAZING MAN 10/10\"",
+    quote: "\"AMAZING MAN 10/10!\"",
   },
 ];
