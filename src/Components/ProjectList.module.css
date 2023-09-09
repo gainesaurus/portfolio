@@ -31,7 +31,7 @@
   color: black;
   border: 2px solid var(--projects);
   border-radius: 20px;
-  box-shadow: 4px 4px 6px var(--about);
+  box-shadow: 4px 6px 8px var(--about);
   width: 45%;
   height: fit-content;
   margin: 0 10px 20px 10px;

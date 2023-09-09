@@ -19,6 +19,20 @@
   margin: 20px;
 }
 
+.navTitle {
+  font-size: 1.2rem;
+  color: var(--about);
+}
+
+.pipeTitle {
+  color: white;
+  margin: 0 0.5rem;
+}
+
+.jobTitle {
+  color: var(--projects);
+}
+
 @media only screen and (max-width: 500px) {
   .links {
     visibility: hidden;
