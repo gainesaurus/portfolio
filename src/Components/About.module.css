@@ -33,7 +33,6 @@
   font-size: 3.5rem;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--about);
-  /* text-shadow: 1px 1px 2px var(--projects); */
   margin: 1rem 0 0 0;
   padding: 0;
 }
@@ -42,7 +41,6 @@
   display: flex;
   font-size: 2.5rem;
   color: var(--projects);
-  /* text-shadow: 1px 1px 2px var(--about); */
   margin: 0 0 1.5rem 1rem;
 }
 

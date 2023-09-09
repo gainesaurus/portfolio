@@ -39,15 +39,17 @@
 
 .testimonialList {
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  flex-wrap: wrap;
+  width: 90%;
   padding: 0;
+  justify-content: space-around;
 }
 
 .testimonial {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
+  width: 45%;
 }
 
 .quote {
@@ -74,4 +76,16 @@
 p {
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 768px ) {
+ .testimonialList {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .testimonial {
+  width: 90%;
+ }
 }
