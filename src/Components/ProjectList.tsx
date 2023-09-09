@@ -25,7 +25,7 @@ const ProjectList = () => {
           </div>
         </li>)}
       </ul>
-      <h2 className={styles.heading}>Side Projects &amp; Assessments:</h2>
+      <h2 className={styles.heading}>side projects &amp; assessments:</h2>
       <ul className={styles.projectList}>
         {sideProjects.map(project => 
         <li key={project.title} className={styles.projectCard}>

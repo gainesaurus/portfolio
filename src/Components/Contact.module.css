@@ -62,4 +62,5 @@
   border: 2px solid var(--contact);
   border-radius: 20px;
   box-shadow: 1px 1px 4px var(--contact);
+  color: black
 }
