@@ -1,4 +1,4 @@
-import styles from 'NavList.module.css';
+import styles from './NavList.module.css';
 
 const NavList = () => {
   return (

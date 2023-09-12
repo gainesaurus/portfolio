@@ -7,7 +7,7 @@
   align-items: center;
   border-bottom: 1px solid var(--nav);
   box-shadow: 0 1px 4px var(--nav);
-  background-color: #0a0a18;
+  background-color: var(--background);
   color: white;
   margin: 0;
   padding: 0;

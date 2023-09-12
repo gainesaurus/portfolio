@@ -1,3 +1,4 @@
+import NavList from './NavList';
 import MenuIcon from '@mui/icons-material/Menu';
 import styles from './Navbar.module.css';
 
@@ -17,6 +18,7 @@ const Navbar = () => {
       <div className={styles.hamburger}>
         <MenuIcon />
       </div>
+      <NavList />
     </header>
   );
 }
