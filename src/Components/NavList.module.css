@@ -1,5 +1,5 @@
 .container {
-  display: flex;
+  display: hidden;
   flex-direction: column;
   position: absolute;
   right: 0;
