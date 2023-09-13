@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className={styles.hamburger}>
         <MenuIcon />
       </div>
-      <NavList />
+      {/* <NavList /> */}
     </header>
   );
 }
