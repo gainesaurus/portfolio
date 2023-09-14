@@ -14,7 +14,14 @@ const ProjectList = () => {
             className={styles.uiImage}
           />
           <div className={styles.projectDetails}>
-            <h3>{project.title}</h3>
+            <h3 className={styles.projectTitle}>{project.title}</h3>
+            <ul className={styles.skillList}>
+              {project.subtitle.map(skill =>
+                <li
+                key={skill}
+                className={styles.skillNode}
+              >{skill}</li>)}
+            </ul>
             <p>{project.description}</p>
             <button 
               className={styles.gitButton}
@@ -34,7 +41,14 @@ const ProjectList = () => {
             className={styles.uiImage}
           />
               <div className={styles.projectDetails}>
-            <h3>{project.title}</h3>
+            <h3 className={styles.projectTitle}>{project.title}</h3>
+            <ul className={styles.skillList}>
+              {project.subtitle.map(skill =>
+                <li
+                key={skill}
+                className={styles.skillNode}
+              >{skill}</li>)}
+            </ul>
             <p>{project.description}</p>
             <button 
               className={styles.gitButton}

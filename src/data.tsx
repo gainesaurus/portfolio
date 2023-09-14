@@ -2,7 +2,7 @@
 export const projects = [
   {
     title: "Vakay!",
-    subtitle: "Next.js, Firebase, Auth0",
+    subtitle: ["Next.js", "Firebase", "Auth0"],
     description: "Vakay! is the app in which users plan trips with many contributors like reunions or trips abroad with timelines, shared locations, photos, etc.",
     image: "./images/VakayUI.png",
     link: "",
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "ifGift",
-    subtitle: "React, Koa, MongoDB",
+    subtitle: ["React", "Koa", "MongoDB"],
     description: "ifGift is the app to aid in the anxious act of gift-giving. Users create profiles with their gift preferences (Wants, Avoids, Registries, or Charities) which other users can see to make more informed gift-giving choices. Users can also create gift-lists for their friends and family to compare with that person's posted Want Lists.",
     image: "./images/ifGiftUI.png",
     link: "",
@@ -18,7 +18,7 @@ export const projects = [
   },
   {
     title: "Subscriber",
-    subtitle: "React, Typescript",
+    subtitle: ["React", "Typescript", "CSS"],
     description: "Subscriber is an app for tracking personal subscriptions and setting reminders for payment renewals or cancellations.",
     image: "./images/SubscriberUI.png",
     link: "",
@@ -38,7 +38,7 @@ export const sideProjects =
 [
   {
     title: "DMbattlr",
-    subtitle: "React, Typescript, MaterialUI",
+    subtitle: ["React", "Typescript", "MaterialUI"],
     description: "The upcoming app to help DMs track combat in the popular role-playing game, Dungeons & Dragons!",
     image: "./images/DMbattlr-UI.png",
     link: "",
@@ -46,7 +46,7 @@ export const sideProjects =
   },
   {
     title: "SW-Samesies",
-    subtitle: "React, CSS, React Hooks",
+    subtitle: ["React", "SWAPI", "React Hooks"],
     description: "A job interview assessment had me build a quick app using the Star Wars API (swapi) to compare two characters. Built in a few hours.",
     image: "./images/SWmates-UI.png",
     link: "",
