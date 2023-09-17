@@ -39,7 +39,7 @@
 
 .uiImage {
   display: flex;
-  max-width: 100%;
+  max-width: 96%;
   max-height: 300px;
   border: 1px solid #757575;
   border-radius: 10px;
@@ -77,12 +77,10 @@
   background-color: var(--contact);
   font-size: 1rem;
   font-weight: bolder;
-  text-shadow: 2px 1px black;
-  box-shadow: 2px 2px 4px var(--skills);
+  text-shadow: 2px 1px var(--background);
   color: white;
   margin: 0.5rem 0.2rem 1rem 0.2rem;
   padding: 0.8rem;
-  border: 3px solid var(--skills);
   border-radius: 20px;
 }
 
