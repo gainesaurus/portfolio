@@ -16,7 +16,7 @@ const Navbar = () => {
         <h2 className={styles.navTitle}>
           mike gainey
           <span className={styles.pipeTitle}>|</span>
-          <span className={styles.jobTitle}>web developer</span>
+          <span className={styles.jobTitle}>developer</span>
         </h2>
         <a href="#projects" className={styles.links}>portfolio</a>
         <a href="#skills" className={styles.links}>skills</a>

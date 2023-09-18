@@ -45,7 +45,7 @@ const ProjectList = () => {
             <ul className={styles.skillList}>
               {project.subtitle.map(skill =>
                 <li
-                key={skill}
+                key={`${project.title}+${skill}`}
                 className={styles.skillNode}
               >{skill}</li>)}
             </ul>

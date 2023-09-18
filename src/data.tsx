@@ -102,11 +102,10 @@ export const testimonials = [
     name: "Anonymous",
     title: "Undergraduate Student",
     company: "UCSD",
-    logo: "",
     quote: "\"Best instructor ever. So friendly and patient, and I really enjoyed his classes.\"",
   },
   {
-    name: "Anonymous",
+    name: "Anonymous Evaluator",
     title: "Undergraduate Student",
     company: "UCSD",
     quote: "\"AMAZING MAN 10/10!\"",
