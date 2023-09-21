@@ -37,6 +37,14 @@ export const projects = [
 export const sideProjects = 
 [
   {
+    title: "5e Monster Manual",
+    subtitle: ["React", "dnd5eAPI", "GH-Pages"],
+    description: "Using the DnD5e API, I am building a reference app for monsters from the Dungeons and Dragons Monster-Manual.",
+    image: "./images/MonsterManual-UI.png",
+    link: "https://gainesaurus.github.io/monster-manual/",
+    gitLink: "https://github.com/gainesaurus/monster-manual",
+  },
+  {
     title: "DMbattlr",
     subtitle: ["React", "Typescript", "MaterialUI"],
     description: "The upcoming app to help DMs track combat in the popular role-playing game, Dungeons & Dragons!",
@@ -51,6 +59,14 @@ export const sideProjects =
     image: "./images/SWmates-UI.png",
     link: "",
     gitLink: "https://github.com/gainesaurus/sw-mates",
+  },
+  {
+    title: "This Portfolio Page!",
+    subtitle: ["React", "CSS", "WCAG"],
+    description: "The portfolio page for one heckuva nice developer",
+    image: "./images/Portfolio-UI.png",
+    link: "https://gainesaur.netlify.app",
+    gitLink: "https://github.com/gainesaurus/portfolio",
   }
 ];
 
