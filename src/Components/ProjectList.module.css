@@ -55,7 +55,6 @@
   background-color: white;
   border-radius: 0 0 20px 20px;
   width: 100%;
-  /* margin: 0 0.2rem 0 0.2rem; */
 }
 
 .projectTitle {
@@ -86,14 +85,20 @@
   border-radius: 20px;
 }
 
-.gitButton {
+.description {
+  display: flex;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.linkButton {
   display: flex;
   background-color: var(--projects);
   border-radius: 20px;
   justify-content: center;
   align-items: center;
+  height: 3rem;
   width: 90%;
-  margin: 1rem;
+  margin: 0 0 1rem 0;
   padding: 6px 16px;
   box-shadow: 1px 1px 4px var(--about);
 }

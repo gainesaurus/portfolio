@@ -22,9 +22,9 @@ const ProjectList = () => {
                 className={styles.skillNode}
               >{skill}</li>)}
             </ul>
-            <p>{project.description}</p>
+            <p className={styles.description}>{project.description}</p>
             <button 
-              className={styles.gitButton}
+              className={styles.linkButton}
               title={project.gitLink}
             >
               <GitHubIcon className={styles.icon} /><p>Github</p>
@@ -49,9 +49,15 @@ const ProjectList = () => {
                 className={styles.skillNode}
               >{skill}</li>)}
             </ul>
-            <p>{project.description}</p>
+            <p className={styles.description}>{project.description}</p>
+            {project.liveLink ? 
+             <button 
+             className={styles.linkButton}
+             title={project.liveLink}
+             ><p>Live Site</p></button>
+          : null}
             <button 
-              className={styles.gitButton}
+              className={styles.linkButton}
               title={project.gitLink}
             >
               <GitHubIcon className={styles.icon} /><p>Github</p>
