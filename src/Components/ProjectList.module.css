@@ -22,17 +22,3 @@
   justify-content: center;
 }
 
-.projectCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #cacaca;
-  color: black;
-  border: 2px solid var(--projects);
-  border-radius: 20px;
-  box-shadow: 2px 4px 10px var(--about);
-  width: 45%;
-  height: fit-content;
-  margin: 0 10px 20px 10px;
-}

@@ -6,7 +6,7 @@ import styles from './ProjectCard.module.css'
 const ProjectCard = ({ project }:any) => {
 
   return (
-    <>
+    <li className={styles.projectCard}>
       <img alt={project.title +'UI'}
         src={project.image}
         className={styles.uiImage}
@@ -15,9 +15,7 @@ const ProjectCard = ({ project }:any) => {
         <h3 className={styles.projectTitle}>{project.title}</h3>
         <ul className={styles.skillList}>
           {project.subtitle.map((skill: string) =>
-          <li key={`${project.title}${project.subtitle.indexOf(skill)}`}>
-            <SkillNode skill={skill} />
-          </li>
+            <SkillNode skill={skill} key={`${project.title}${project.subtitle.indexOf(skill)}`}/>
           )}
         </ul>
         <p className={styles.description}>{project.description}</p>
@@ -38,7 +36,7 @@ const ProjectCard = ({ project }:any) => {
           </button>
         : null}
       </div>
-    </>
+    </li>
   )
 }
 

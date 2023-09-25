@@ -9,17 +9,13 @@ const ProjectList = () => {
       <h2 className={styles.heading}>portfolio</h2>
       <ul className={styles.projectList}>
         {projects.map(project => 
-        <li key={project.title} className={styles.projectCard}>
-          <ProjectCard project={project} />
-        </li>
+          <ProjectCard project={project} key={project.title} />
         )}
       </ul>
       <h2 className={styles.heading}>side projects &amp; assessments:</h2>
       <ul className={styles.projectList}>
         {sideProjects.map(project => 
-        <li key={project.title} className={styles.projectCard}>
-          <ProjectCard project={project} />
-        </li>)}
+          <ProjectCard project={project} key={project.title} />)}
       </ul>
     </section>
   );

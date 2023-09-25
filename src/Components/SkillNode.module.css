@@ -1,6 +1,7 @@
 .skillNode {
   display: flex;
   background-color: var(--contact);
+  font-size: 1.15rem;
   font-weight: bolder;
   text-shadow: 2px 1px black;
   box-shadow: 2px 2px 4px var(--skills);

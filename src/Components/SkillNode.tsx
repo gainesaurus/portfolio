@@ -2,7 +2,7 @@ import styles from './SkillNode.module.css';
 
 const SkillNode = ({ skill }:any) => {
   return (
-    <p className={styles.skillNode}>{skill}</p>
+    <li className={styles.skillNode}>{skill}</li>
   )
 }
 

@@ -8,9 +8,7 @@ const SkillsList = () => {
       <h2 className={styles.heading}>skills &amp; testimonials:</h2>
       <ul className={styles.skillList}>
         {skills.map(skill => 
-        <li key={`${skill}${skills.indexOf(skill)}`}>
-          <SkillNode skill={skill} />
-        </li>
+          <SkillNode skill={skill} key={`${skill}${skills.indexOf(skill)}`} />
         )}
       </ul>
       <ul className={styles.testimonialList}>
