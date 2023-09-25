@@ -1,4 +1,5 @@
 import { skills, testimonials } from '../data'
+import SkillNode from './SkillNode';
 import styles from './SkillsList.module.css';
 
 const SkillsList = () => {
@@ -7,15 +8,15 @@ const SkillsList = () => {
       <h2 className={styles.heading}>skills &amp; testimonials:</h2>
       <ul className={styles.skillList}>
         {skills.map(skill => 
-        <li
-          key={skill}
-          className={styles.skillNode}
-        >{skill}</li>)}
+        <li key={`${skill}${skills.indexOf(skill)}`}>
+          <SkillNode skill={skill} />
+        </li>
+        )}
       </ul>
       <ul className={styles.testimonialList}>
         {testimonials.map(testimonial => 
         <li
-          key={testimonial.name}
+          key={testimonials.indexOf(testimonial)}
           className={styles.testimonial}
         >
           <p className={styles.quote}>{testimonial.quote}</p>
