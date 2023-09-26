@@ -77,7 +77,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className={styles.button}
+          className={styles.submitBtn}
         >
           Submit
         </button>

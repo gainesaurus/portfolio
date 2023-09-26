@@ -23,7 +23,7 @@ const ProjectCard = ({ project }:any) => {
           <button 
             className={styles.linkButton}
             title={project.liveLink}>
-            <ComputerIcon className={styles.icon} />
+            <ComputerIcon className={styles.icon} style={{fontSize:'2rem'}} />
             <p>Live Site</p>
           </button>
         : null}
@@ -31,7 +31,7 @@ const ProjectCard = ({ project }:any) => {
           <button 
            className={styles.linkButton}
            title={project.gitLink}>
-           <GitHubIcon className={styles.icon} />
+           <GitHubIcon className={styles.icon} style={{fontSize:'2rem'}} />
            <p>Github</p>
           </button>
         : null}

@@ -55,12 +55,16 @@
   font-size: 1.1rem;
 }
 
-.button {
+.submitBtn {
   background-color: var(--projects);
+  font-size: 1.2rem;
+  font-weight: bolder;
   margin: 10px;
-  padding: 6px 16px;
-  border: 2px solid var(--contact);
+  padding: 0.8rem 1.6rem;
+  border: 2px solid var(--projects);
   border-radius: 20px;
-  box-shadow: 1px 1px 4px var(--contact);
-  color: black
+  box-shadow: 1px 1px 4px white;
+  color: white;
+  text-shadow: 1px 1px 2px #393939;
+  box-shadow: 3px 3px 3px var(--about)
 }
