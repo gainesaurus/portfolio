@@ -1,5 +1,6 @@
-import { skills, testimonials } from '../data'
+import { skills } from '../data'
 import SkillNode from './SkillNode';
+import TestimonialList from './TestimonialList';
 import styles from './SkillsList.module.css';
 
 const SkillsList = () => {
@@ -11,20 +12,7 @@ const SkillsList = () => {
           <SkillNode skill={skill} key={`${skill}${skills.indexOf(skill)}`} />
         )}
       </ul>
-      <ul className={styles.testimonialList}>
-        {testimonials.map(testimonial => 
-        <li
-          key={testimonials.indexOf(testimonial)}
-          className={styles.testimonial}
-        >
-          <p className={styles.quote}>{testimonial.quote}</p>
-          <div className={styles.byline}>
-            <p>{testimonial.name}</p>
-            <p>{testimonial.title}</p>
-            <p>{testimonial.company}</p>
-          </div>
-        </li>)}
-      </ul>
+      <TestimonialList />
     </section>
   );
 }
