@@ -68,3 +68,7 @@
   text-shadow: 1px 1px 2px #393939;
   box-shadow: 3px 3px 3px var(--about)
 }
+
+.submitBtn:active {
+  box-shadow: none;
+}
