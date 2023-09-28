@@ -19,22 +19,27 @@ const ProjectCard = ({ project }:any) => {
           )}
         </ul>
         <p className={styles.description}>{project.description}</p>
-        {project.liveLink ? 
-          <button 
+        {project.liveLink && 
+          <a href={project.liveLink} className={styles.link}>
+            <button
+              className={styles.linkButton}
+              title={project.liveLink}>
+              <ComputerIcon className={styles.icon} style={{fontSize:'2rem'}} />
+              <p>Live Site</p>
+            </button>
+          </a>
+        }
+        {project.gitLink && 
+          <a href={project.gitLink} className={styles.link}>
+            <button
             className={styles.linkButton}
-            title={project.liveLink}>
-            <ComputerIcon className={styles.icon} style={{fontSize:'2rem'}} />
-            <p>Live Site</p>
-          </button>
-        : null}
-        {project.gitLink ? 
-          <button 
-           className={styles.linkButton}
-           title={project.gitLink}>
-           <GitHubIcon className={styles.icon} style={{fontSize:'2rem'}} />
-           <p>Github</p>
-          </button>
-        : null}
+            title={project.gitLink}
+            >
+            <GitHubIcon className={styles.icon} style={{fontSize:'2rem'}} />
+            <p>Github</p>
+            </button>
+          </a>
+        }
       </div>
     </li>
   )

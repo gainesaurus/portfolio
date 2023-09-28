@@ -12,11 +12,6 @@ const ProjectList = () => {
           <ProjectCard project={project} key={project.title} />
         )}
       </ul>
-      {/* <h2 className={styles.heading}>side projects &amp; assessments:</h2>
-      <ul className={styles.projectList}>
-        {sideProjects.map(project => 
-          <ProjectCard project={project} key={project.title} />)}
-      </ul> */}
     </section>
   );
 }

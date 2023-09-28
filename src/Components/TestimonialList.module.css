@@ -1,3 +1,8 @@
+.heading {
+  display: flex;
+  color: white;
+  margin: 4rem 0 0 0;
+}
 
 .testimonialList {
   display: flex;

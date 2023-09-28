@@ -9,14 +9,6 @@ section {
   box-sizing: border-box;
 }
 
-a:link, a:visited {
-  color: var(--about);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  color: white;
-  background-color: transparent;
+a {
   text-decoration: none;
 }

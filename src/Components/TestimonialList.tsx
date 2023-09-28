@@ -4,7 +4,9 @@ import styles from './TestimonialList.module.css';
 const TestimonialList = () => {
 
   return (
-    <ul className={styles.testimonialList}>
+    <>
+      <h2 className={styles.heading}>testimonials:</h2>
+      <ul className={styles.testimonialList}>
         {testimonials.map(testimonial => 
         <li
           key={`${testimonial.name}${testimonials.indexOf(testimonial)}`}
@@ -18,6 +20,7 @@ const TestimonialList = () => {
           </div>
         </li>)}
       </ul>
+    </>
   )
 }
 

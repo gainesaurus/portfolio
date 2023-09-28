@@ -25,6 +25,18 @@
   margin: 1rem;
 }
 
+.links:link, .links:visited {
+  color: var(--about);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.links:hover, .links:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .navTitle {
   font-size: 1.2rem;
   color: var(--about);
