@@ -1,4 +1,4 @@
-import { projects, sideProjects } from '../data';
+import { projects } from '../data';
 import ProjectCard from './ProjectCard';
 import styles from './ProjectList.module.css';
 
@@ -12,11 +12,11 @@ const ProjectList = () => {
           <ProjectCard project={project} key={project.title} />
         )}
       </ul>
-      <h2 className={styles.heading}>side projects &amp; assessments:</h2>
+      {/* <h2 className={styles.heading}>side projects &amp; assessments:</h2>
       <ul className={styles.projectList}>
         {sideProjects.map(project => 
           <ProjectCard project={project} key={project.title} />)}
-      </ul>
+      </ul> */}
     </section>
   );
 }

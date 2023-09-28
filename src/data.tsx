@@ -24,26 +24,6 @@ export const projects = [
     liveLink: "",
     gitLink: "https://github.com/gainesaurus/subscriber",
   },
-  // {
-  //   title: "Emotional Wellbeing Lab",
-  //   subtitle: ["React, Wordpress"],
-  //   description: "The website for the University of Western Australia's Emotional Wellbeing Lab.",
-  //   image: "",
-  //   link: "http://emotionalwellbeinglab.com.au/",
-  //   gitLink: "",
-  // },
-  // {
-  //   title: "Doctor Banjo",
-  //   subtitle: ["React, Netlify"],
-  //   description: "The homepage of Western Australia's Greatest Banjo Player",
-  //   image: "",
-  //   link: "",
-  //   gitLink: "",
-  // }
-];
-
-export const sideProjects = 
-[
   {
     title: "5e Monster Manual",
     subtitle: ["React", "dnd5eAPI", "GH-Pages"],
@@ -76,6 +56,22 @@ export const sideProjects =
     liveLink: "https://gainesaur.netlify.app",
     gitLink: "https://github.com/gainesaurus/portfolio",
   }
+  // {
+  //   title: "Emotional Wellbeing Lab",
+  //   subtitle: ["React, Wordpress"],
+  //   description: "The website for the University of Western Australia's Emotional Wellbeing Lab.",
+  //   image: "",
+  //   link: "http://emotionalwellbeinglab.com.au/",
+  //   gitLink: "",
+  // },
+  // {
+  //   title: "Doctor Banjo",
+  //   subtitle: ["React, Netlify"],
+  //   description: "The homepage of Western Australia's Greatest Banjo Player",
+  //   image: "",
+  //   link: "",
+  //   gitLink: "",
+  // }
 ];
 
 

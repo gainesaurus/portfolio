@@ -66,7 +66,6 @@
   border-radius: 20px;
   font-size: 1.2rem;
   font-weight: bolder;
-  /* stroke: var(--background); */
   text-shadow: 1px 1px 2px black;
   box-shadow: 1px 1px 4px var(--about);
   height: 3rem;
