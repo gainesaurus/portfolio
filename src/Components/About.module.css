@@ -50,6 +50,18 @@
   align-items: center;
 }
 
+.icon:link, .icon:visited {
+  color: var(--about);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.icon:hover, .icon:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .icon {
   display: flex;
   margin: 10px;
