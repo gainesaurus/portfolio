@@ -27,7 +27,7 @@ export const projects = [
   {
     title: "5e Monster Manual",
     subtitle: ["React", "dnd5eAPI", "GH-Pages"],
-    description: "Using the DnD5e API, I am building a reference app for monsters from the Dungeons and Dragons Monster-Manual.",
+    description: "Using the DnD5e API, I have built a reference app for monsters from the Dungeons & Dragons Monster-Manual.",
     image: "./images/MonsterManual-UI.png",
     liveLink: "https://gainesaurus.github.io/monster-manual/",
     gitLink: "https://github.com/gainesaurus/monster-manual",
