@@ -96,6 +96,7 @@ export const skills = [
   "Mongoose",
   "MySQL",
   "Wordpress",
+  "PHP",
   "Figma",
   "VS Code",
   "Github",
