@@ -55,15 +55,15 @@ export const projects = [
     image: "./images/Portfolio-UI.png",
     liveLink: "https://gainesaur.netlify.app",
     gitLink: "https://github.com/gainesaurus/portfolio",
-  }
-  // {
-  //   title: "Emotional Wellbeing Lab",
-  //   subtitle: ["React, Wordpress"],
-  //   description: "The website for the University of Western Australia's Emotional Wellbeing Lab.",
-  //   image: "",
-  //   link: "http://emotionalwellbeinglab.com.au/",
-  //   gitLink: "",
-  // },
+  },
+  {
+    title: "Emotional Wellbeing Lab",
+    subtitle: ["React, Next.js, Wordpress"],
+    description: "The website for the University of Western Australia's Emotional Wellbeing Lab.",
+    image: "./images/ewb-lab-UI.png",
+    link: "http://emotionalwellbeinglab.com.au/",
+    gitLink: "https://github.com/gainesaurus/ewb-lab-site",
+  },
   // {
   //   title: "Doctor Banjo",
   //   subtitle: ["React, Netlify"],
