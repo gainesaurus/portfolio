@@ -40,14 +40,14 @@ export const projects = [
     liveLink: "",
     gitLink: "https://github.com/gainesaurus/dmbattlr",
   },
-  {
-    title: "SW-Samesies",
-    subtitle: ["React", "SWAPI", "React Hooks"],
-    description: "A job interview assessment had me build a quick app using the Star Wars API (swapi) to compare two characters. Built in a few hours.",
-    image: "./images/SWmates-UI.png",
-    liveLink: "",
-    gitLink: "https://github.com/gainesaurus/sw-mates",
-  },
+  // {
+  //   title: "SW-Samesies",
+  //   subtitle: ["React", "SWAPI", "React Hooks"],
+  //   description: "A job interview assessment had me build a quick app using the Star Wars API (swapi) to compare two characters. Built in a few hours.",
+  //   image: "./images/SWmates-UI.png",
+  //   liveLink: "",
+  //   gitLink: "https://github.com/gainesaurus/sw-mates",
+  // },
   {
     title: "This Portfolio Page!",
     subtitle: ["React", "CSS", "WCAG"],
@@ -119,16 +119,16 @@ export const testimonials = [
     company: "ifGift",
     quote: "\"I have had the pleasure to work with Mike in different projects. He is a team player who is always willing to help out, open to new ideas and approaches, and his positive attitude and willingness to pitch in make him a pleasure to work with. I have no doubt his skills would benefit any company!\"",
   },
-  {
-    name: "Anonymous",
-    title: "Undergraduate Student",
-    company: "UCSD",
-    quote: "\"Best instructor ever. So friendly and patient, and I really enjoyed his classes.\"",
-  },
-  {
-    name: "Anonymous",
-    title: "Undergraduate Student",
-    company: "UCSD",
-    quote: "\"AMAZING MAN 10/10!\"",
-  },
+  // {
+  //   name: "Anonymous",
+  //   title: "Undergraduate Student",
+  //   company: "UCSD",
+  //   quote: "\"Best instructor ever. So friendly and patient, and I really enjoyed his classes.\"",
+  // },
+  // {
+  //   name: "Anonymous",
+  //   title: "Undergraduate Student",
+  //   company: "UCSD",
+  //   quote: "\"AMAZING MAN 10/10!\"",
+  // },
 ];
