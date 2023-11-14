@@ -9,7 +9,7 @@ const About = () => {
       <div className={styles.description}>
         <p>Hello folks, my name is</p>
         <h2 className={styles.name}> Mike Gainey</h2>
-        <h3 className={styles.bio}>and I build web stuff.</h3>
+        <h3 className={styles.bio}>and I build web apps.</h3>
         <p>I am a front-end developer with fullstack experience and a background in teaching and creative design.</p>
         <div className={styles.linkList}>
           <a href='https://github.com/gainesaurus'
@@ -27,7 +27,7 @@ const About = () => {
           
         </div>
       </div>
-      <img src="./headshot.jpg" alt="headshot" className={styles.headshot}/>
+      <img src="./images/headshot.png" alt="headshot" className={styles.headshot}/>
     </section>
   );
 }
